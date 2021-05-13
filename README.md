@@ -1,1 +1,0 @@
-# syahshiimi.github.io
