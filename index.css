@@ -1,6 +1,47 @@
-body {
-	background-color: #fff2eb;
-
+html {
+	/* Font Styles */
+	font-family: "DM Serif Display", serif;
+	font-family: "Montserrat", sans-serif;
 }
 
+body {
+	background-color: #fff2eb;
+	display: grid;
+	grid-template-rows: 10vh 80vh 10vh;
+	grid-template-columns: 10vw 80vw 10vw;
+	grid-template-areas:
+		" . header . "
+		" . main . "
+		". footer . ";
+		max-height: 100vh;
+}
 
+main {
+	grid-area: main;
+	align-self: center;
+	justify-self: center;
+
+	/* content css */
+	text-align: justify;
+}
+
+main h3 {
+	font-family: DM Serif Display;
+	color: #47503f;
+	font-size: 32px;
+}
+
+header {
+	grid-area: header;
+	align-self: center;
+	justify-self: center;
+}
+
+footer {
+	grid-area: footer;
+	align-self: center;
+	justify-self: center;
+
+	/* content-related */
+	font-size: 1vw;
+}
