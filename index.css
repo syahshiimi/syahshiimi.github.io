@@ -10,7 +10,7 @@ html {
 body {
 	background-color: #fff2eb;
 	display: grid;
-	grid-template-rows: 15vh 80vh 10vh;
+	grid-template-rows: 10vh 80vh 10vh;
 	grid-template-columns: 10vw 40vw 40vw 10vw;
 	grid-template-areas:
 		" .  header navbar .  "
