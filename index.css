@@ -3,21 +3,21 @@ html {
 	font-family: "DM Serif Display", serif;
 	font-family: "Montserrat", sans-serif;
 
-	max-height: 100%;
-
+	margin: 0;
+	padding: 0;
 }
 
 body {
 	background-color: #fff2eb;
 	display: grid;
-	grid-template-rows: 10vh 80vh 10vh;
-	grid-template-columns: 10vw 80vw 10vw;
+	grid-template-rows: 15vh 80vh 10vh;
+	grid-template-columns: 10vw 40vw 40vw 10vw;
 	grid-template-areas:
-		" header header header "
-		" . main . "
-		". footer . ";
-		max-height: 100vh;
-		max-width: 100vw;
+		" .  header navbar .  "
+		" . main main  . "
+		". footer footer . ";
+	max-height: 100%;
+	max-width: 100%;
 }
 
 main {
@@ -39,12 +39,50 @@ header {
 	grid-area: header;
 	align-self: center;
 	justify-self: left;
-	padding: 50px;
 
 	/* content styling */
 	font-family: DM Serif Display;
-
+	font-size: 24px;
 }
+
+header a {
+	text-decoration: none;
+	color: #47503f;
+}
+
+header a:link {
+	color: white;
+	color: #47503f;
+}
+
+header a:visited {
+	color: yellow;
+	color: #47503f;
+}
+
+.navbar {
+	grid-area: navbar;
+	justify-self: right;
+	align-self: center;
+	display: flex;
+	position: sticky;
+}
+
+.navbar ul {
+	list-style: none;
+	text-decoration: none;
+	display: flex;
+}
+
+.navbar li {
+	padding-left: 30px;
+}
+
+.navbar a {
+	text-decoration: none;
+	color: #bd632f; 
+}
+
 
 footer {
 	grid-area: footer;
@@ -52,5 +90,5 @@ footer {
 	justify-self: center;
 
 	/* content-related */
-	font-size: 1vw;
+	font-size: 14px;
 }
