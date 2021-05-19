@@ -2,6 +2,9 @@ html {
 	/* Font Styles */
 	font-family: "DM Serif Display", serif;
 	font-family: "Montserrat", sans-serif;
+
+	max-height: 100%;
+
 }
 
 body {
@@ -10,10 +13,11 @@ body {
 	grid-template-rows: 10vh 80vh 10vh;
 	grid-template-columns: 10vw 80vw 10vw;
 	grid-template-areas:
-		" . header . "
+		" header header header "
 		" . main . "
 		". footer . ";
 		max-height: 100vh;
+		max-width: 100vw;
 }
 
 main {
@@ -34,7 +38,12 @@ main h3 {
 header {
 	grid-area: header;
 	align-self: center;
-	justify-self: center;
+	justify-self: left;
+	padding: 50px;
+
+	/* content styling */
+	font-family: DM Serif Display;
+
 }
 
 footer {
