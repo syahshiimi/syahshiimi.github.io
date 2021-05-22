@@ -2,10 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://syahrulanuar.org/contact/</loc>
+    <lastmod>2021-05-20T00:27:21+08:00</lastmod>
+  </url><url>
+    <loc>https://syahrulanuar.org/about/</loc>
+    <lastmod>2021-05-20T00:27:11+08:00</lastmod>
+  </url><url>
+    <loc>https://syahrulanuar.org/backgroundnoise/</loc>
+  </url><url>
     <loc>https://syahrulanuar.org/categories/</loc>
+  </url><url>
+    <loc>https://syahrulanuar.org/nowiswhen/</loc>
   </url><url>
     <loc>https://syahrulanuar.org/</loc>
   </url><url>
     <loc>https://syahrulanuar.org/tags/</loc>
+  </url><url>
+    <loc>https://syahrulanuar.org/tanahdibawahangin/</loc>
+  </url><url>
+    <loc>https://syahrulanuar.org/work/</loc>
+  </url><url>
+    <loc>https://syahrulanuar.org/yangpertamadanutama/</loc>
   </url>
 </urlset>

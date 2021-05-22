@@ -1,31 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Syahrul Anuar</title>
-    <link>https://syahrulanuar.org/</link>
-    <description>Recent content on Syahrul Anuar</description>
+    <title>Works on Syahrul Anuar</title>
+    <link>https://syahrulanuar.org/work/</link>
+    <description>Recent content in Works on Syahrul Anuar</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://syahrulanuar.org/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Contact</title>
-      <link>https://syahrulanuar.org/contact/</link>
-      <pubDate>Thu, 20 May 2021 00:27:21 +0800</pubDate>
-      
-      <guid>https://syahrulanuar.org/contact/</guid>
-      <description>I am open to collaborations and research. Feel free to reach out on any of the channels below.
-Contact Me See What&amp;rsquo;s Up Collect! </description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://syahrulanuar.org/about/</link>
-      <pubDate>Thu, 20 May 2021 00:27:11 +0800</pubDate>
-      
-      <guid>https://syahrulanuar.org/about/</guid>
-      <description>Contemplating upon narratives and histories, Syahrul Anuar (b. 1995 Singapore) surveys, unravels and weaves the complexities and multiplicities of how humans consume, depict and attempt convey it. Pondering upon the fact and fictions that permeates through narratives and history — his practice employs an extensive and fluid use of mediums as his visual language.
-He is a recent graduate at the Nanyang Technological University, School of Art, Design Media with a Bachelor’s of Fine Arts.</description>
-    </item>
-    
+    <language>en-us</language><atom:link href="https://syahrulanuar.org/work/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Background Noise</title>
       <link>https://syahrulanuar.org/backgroundnoise/</link>
