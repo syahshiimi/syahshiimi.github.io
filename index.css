@@ -36,7 +36,6 @@ main p {
 main h3 {
 	font-family: DM Serif Display;
 	color: #47503f;
-	font-size: 32px;
 }
 
 main a {
@@ -72,6 +71,7 @@ main ul {
 }
 
 .worklist ul {
+	padding: 0;
 	text-align: center;
 }
 
@@ -138,6 +138,7 @@ header {
 header a {
 	text-decoration: none;
 	color: #47503f;
+
 }
 
 header a:link {
@@ -167,6 +168,7 @@ nav a {
 	text-decoration: none;
 	color: #47503f;
 	padding-left: 30px;
+	font-size: 14px;
 }
 
 footer {
