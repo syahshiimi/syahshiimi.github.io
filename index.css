@@ -2,19 +2,20 @@ html {
 	/* Font Styles */
 	font-family: "DM Serif Display", serif;
 	font-family: "Montserrat", sans-serif;
+	height: 100vh;
 }
 
 body {
 	background-color: #fff2eb;
 	display: grid;
-	grid-template-rows: 10vh 80vh 10vh;
+	grid-template-rows: auto 1fr auto;
 	grid-template-columns: 2vw auto auto 2vw;
 	grid-template-areas:
 		" .  header navbar .  "
 		" . main main  . "
-		". footer footer . ";
-	max-height: 100%;
-	max-width: 100%;
+		"footer footer footer footer ";
+	width: 100vw;
+	height: 100vh;
 	margin: 0;
 	padding: 0;
 }
@@ -52,11 +53,14 @@ main ul {
 	text-decoration: none;
 }
 
-.about {
-	display: grid;
-	grid-template-columns: 50vw 50vw;
-	grid-template-areas: " cv bio ";
+/* about page styling */
+
+.about-wrapper {
+	padding-left: 15%;
+	padding-right: 15%;
 }
+
+/* work page listing at homepage */
 
 .worklist {
 	grid-area: main;
@@ -84,16 +88,7 @@ main ul {
 	font-size: 36px;
 }
 
-/* single-page content styling */
-
-.singe-page-wrapper {
-	display: grid;
-	grid-template-rows: auto;
-	grid-template-columns: 50% 50%;
-	grid-template-areas: " content cv";
-}
-
-/* singe-page work page styling */
+/*  work page styling */
 
 .work-content {
 	display: grid;
@@ -179,6 +174,8 @@ footer {
 	align-self: center;
 	justify-self: center;
 	color: #bd632f;
+	padding-top: 5vh;
+	padding-bottom: 5vh;
 
 	/* content-related */
 	font-size: 12px;
