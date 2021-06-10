@@ -114,11 +114,19 @@ main ul {
 }
 
 .worklist a:hover ~ img {
-	height: 400px;
 	width: 400px;
 	display: inline-block;
 	opacity: 1;
 	height: auto;
+}
+
+/* hover image for 4k displays */
+
+@media only screen and (min-width: 2160px) {
+	.worklist a:hover ~ img {
+		width: 900px;
+		height: auto;
+	}
 }
 
 /*  work page styling */
