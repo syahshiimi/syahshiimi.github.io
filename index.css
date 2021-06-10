@@ -95,6 +95,10 @@ main ul {
 	font-size: 36px;
 }
 
+.worklist a:hover {
+	opacity: 120%;
+}
+
 .worklist .hovercontainer {
 	display: flex;
 	justify-content: center;
@@ -102,7 +106,6 @@ main ul {
 }
 
 .worklist img {
-	width: 500px;
 	opacity: 0;
 	height: 0;
 	position: absolute;
@@ -111,6 +114,8 @@ main ul {
 }
 
 .worklist a:hover ~ img {
+	height: 400px;
+	width: 400px;
 	display: inline-block;
 	opacity: 1;
 	height: auto;
@@ -143,6 +148,7 @@ main ul {
 
 .image-carousel img {
 	max-width: 100%;
+	align-items: center;
 }
 
 .image-carousel .glide__arrow {
