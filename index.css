@@ -53,6 +53,14 @@ main ul {
 	text-decoration: none;
 }
 
+/* single page styling */
+
+.single-page-wrapper {
+	padding-left: 15%;
+	padding-right: 15%;
+}
+
+
 /* about page styling */
 
 .about-wrapper {
