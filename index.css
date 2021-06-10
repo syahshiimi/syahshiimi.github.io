@@ -60,7 +60,6 @@ main ul {
 	padding-right: 15%;
 }
 
-
 /* about page styling */
 
 .about-wrapper {
@@ -96,20 +95,25 @@ main ul {
 	font-size: 36px;
 }
 
-.worklist .hover_img a {
-	position: relative;
+.worklist .hovercontainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
-.worklist .hover_img a span {
+
+.worklist img {
+	width: 500px;
+	opacity: 0;
+	height: 0;
 	position: absolute;
-	display: none;
-}
-.worklist .hover_img a:hover span {
-	display: inline;
+	transition: opacity 1s ease-out;
+	z-index: -1;
 }
 
-.worklist .hover_img a:hover span img {
-	height: 100px;
-
+.worklist a:hover ~ img {
+	display: inline-block;
+	opacity: 1;
+	height: auto;
 }
 
 /*  work page styling */
@@ -244,7 +248,7 @@ footer {
 	}
 
 	.worklist {
-		align-self: center ;
+		align-self: center;
 		justify-self: center;
 		max-width: 100%;
 		max-height: 100vh;
@@ -268,14 +272,12 @@ footer {
 		place-self: center;
 		max-height: 100vh;
 		width: 100%;
-
 	}
 
 	.image-carousel .img {
 		padding: 0;
 	}
 
-	
 	.about-wrapper {
 		padding: 10vw;
 	}
