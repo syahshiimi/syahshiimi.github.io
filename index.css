@@ -19,6 +19,7 @@ body {
 	height: 100%;
 	margin: 0;
 	padding: 0;
+	font-size: 16px;
 }
 
 main {
@@ -31,7 +32,7 @@ main {
 }
 
 main p {
-	font-size: 16px;
+	font-size: 1em;
 }
 
 main h3 {
@@ -83,7 +84,7 @@ main ul {
 }
 
 .worklist li {
-	padding-top: 20px;
+	padding-top: 1.25em;
 	text-decoration: none;
 	list-style: none;
 }
@@ -92,7 +93,7 @@ main ul {
 	text-decoration: none;
 	list-style: none;
 	color: #47503f;
-	font-size: 36px;
+	font-size: 3em;
 }
 
 .worklist a:hover {
@@ -114,7 +115,7 @@ main ul {
 }
 
 .worklist a:hover ~ img {
-	width: 400px;
+	width: 25em;
 	display: inline-block;
 	opacity: 1;
 	height: auto;
@@ -124,7 +125,7 @@ main ul {
 
 @media only screen and (min-width: 2160px) {
 	.worklist a:hover ~ img {
-		width: 900px;
+		width: 56.25em;
 		height: auto;
 	}
 }
@@ -145,7 +146,7 @@ main ul {
 }
 
 .work-content p {
-	font-size: 14px;
+	font-size: 0.875em;
 }
 
 .image-carousel {
@@ -164,7 +165,7 @@ main ul {
 }
 
 .image-carousel .glide__arrow .glide__arrow-left {
-	size: 50px;
+	size: 3.125em;
 }
 
 header {
@@ -174,7 +175,7 @@ header {
 
 	/*	text  styling */
 	font-family: DM Serif Display;
-	font-size: 14px;
+	font-size: 1em;
 }
 
 header a {
@@ -208,8 +209,8 @@ nav ul {
 nav a {
 	text-decoration: none;
 	color: #47503f;
-	padding-left: 30px;
-	font-size: 14px;
+	padding-left: 1.875em;
+	font-size: 1em;
 }
 
 footer {
@@ -220,7 +221,7 @@ footer {
 	padding-bottom: 2vh;
 
 	/* content-related */
-	font-size: 12px;
+	font-size: 0.875em;
 }
 
 /* for mobile phones etc. */
@@ -243,7 +244,7 @@ footer {
 	}
 	nav {
 		place-self: center;
-		font-size: 1em;
+		font-size: 0.9em;
 		display: flex;
 		justify-content: space-between;
 	}
@@ -258,41 +259,41 @@ footer {
 
 	nav a {
 		text-align: center;
-		padding: 10px;
+		padding: 0.625em;
 	}
 
 	.worklist {
-		align-self: center;
-		justify-self: center;
+		place-self: center;
 		max-width: 100%;
 		max-height: 100vh;
 	}
 
 	.worklist a {
-		font-size: 30px;
+		font-size: 1.7em;
 	}
 
 	.work-content {
 		margin: 0;
-		padding: 0;
+		padding: 1vw;
 		grid-template-rows: auto 1fr;
 		grid-template-columns: 1fr;
 		grid-template-areas:
 			"image-carousel"
-			" body";
+			"body";
 	}
 
 	.image-carousel {
 		place-self: center;
-		max-height: 100vh;
-		width: 100%;
-	}
-
-	.image-carousel .img {
+		max-width: 75vw;
 		padding: 0;
 	}
 
 	.about-wrapper {
-		padding: 10vw;
+		padding: 5vw;
+		font-size: 0.9em;
 	}
+
+	footer {
+		font-size: 0.6em;
+
 }
